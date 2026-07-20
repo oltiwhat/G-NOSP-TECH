@@ -491,28 +491,16 @@ export type Leader = {
 
 export const leadership: Leader[] = [
   {
-    name: "Aria Bennett",
-    role: "Co-Founder & CEO",
+    name: "Sam Veselaj",
+    role: "Founder & CEO",
     bio: "Former principal engineer who scaled platforms to billions of requests. Obsessed with turning hard problems into calm, reliable systems.",
-    initials: "AB",
+    initials: "SV",
   },
   {
-    name: "Marcus Chen",
+    name: "Olti Ahmeti",
     role: "Co-Founder & CTO",
     bio: "Distributed systems veteran and AI researcher. Believes the best architecture is the one your team can still reason about at 3am.",
-    initials: "MC",
-  },
-  {
-    name: "Sofia Reyes",
-    role: "Head of Security",
-    bio: "Led red teams at global banks. Champions zero-trust and makes compliance feel like a feature, not a tax.",
-    initials: "SR",
-  },
-  {
-    name: "Daniel Okoye",
-    role: "Head of Design",
-    bio: "Designs interfaces that disappear. Translates dense enterprise workflows into experiences people actually enjoy.",
-    initials: "DO",
+    initials: "OA",
   },
 ];
 

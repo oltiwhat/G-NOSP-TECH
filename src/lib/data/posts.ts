@@ -108,7 +108,7 @@ Track latency, token cost, and harmful-output rate per route. The models improve
     excerpt:
       "Most clusters are over-provisioned and under-instrumented. Practical moves that cut spend without cutting reliability.",
     category: "Cloud",
-    author: { name: "Aria Bennett", role: "Co-Founder & CEO" },
+    author: { name: "Sam Veselaj", role: "Founder & CEO" },
     date: "2026-05-27",
     gradient: "from-cyan-500/30 to-blue-600/25",
     content: `Cloud bills are a mirror of your architecture decisions. Before negotiating rates, fix the shape of your workloads.

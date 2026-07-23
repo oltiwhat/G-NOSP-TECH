@@ -497,7 +497,7 @@ export const leadership: Leader[] = [
     initials: "SL",
   },
   {
-    name: "John Jane Rambo",
+    name: "John J Rambo",
     role: "Co-Founder & CTO",
     bio: "Distributed systems veteran and AI researcher. Believes the best architecture is the one your team can still reason about at 3am.",
     initials: "JR",

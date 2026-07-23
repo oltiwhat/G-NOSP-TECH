@@ -127,7 +127,7 @@ export const featuredProjects: Project[] = [
       { label: "Threats blocked", value: "12M+" },
       { label: "Latency", value: "8ms" },
     ],
-    gradient: "from-blue-600/30 to-violet-600/20",
+    gradient: "from-black/30 to-violet-600/20",
   },
   {
     name: "Nimbus Grid",
@@ -138,7 +138,7 @@ export const featuredProjects: Project[] = [
       { label: "Nodes", value: "9,400" },
       { label: "Cost saved", value: "37%" },
     ],
-    gradient: "from-cyan-500/25 to-blue-600/20",
+    gradient: "from-cyan-500/25 to-black",
   },
   {
     name: "Forge OS",
@@ -684,7 +684,7 @@ export const portfolio: PortfolioProject[] = [
     summary:
       "An autonomous threat-detection platform that neutralizes attacks in milliseconds using real-time machine learning.",
     technologies: ["LLMs", "PyTorch", "Kubernetes"],
-    gradient: "from-blue-600/35 to-violet-600/25",
+    gradient: "from-black/35 to-violet-600/25",
     url: "https://www.gnosp.tech",
     caseStudy: "/case-studies",
   },
@@ -697,7 +697,7 @@ export const portfolio: PortfolioProject[] = [
     summary:
       "A self-healing multi-cloud control plane managing capacity and cost across three providers.",
     technologies: ["Kubernetes", "Terraform", "AWS"],
-    gradient: "from-cyan-500/30 to-blue-600/25",
+    gradient: "from-cyan-500/30 to-black",
     url: "https://www.gnosp.tech",
     caseStudy: "/case-studies",
   },
@@ -736,7 +736,7 @@ export const portfolio: PortfolioProject[] = [
     summary:
       "A zero-trust access platform that passed a top-tier bank's hardest audit on the first attempt.",
     technologies: ["Zero-trust", "Go", "PostgreSQL"],
-    gradient: "from-rose-500/30 to-blue-600/20",
+    gradient: "from-rose-500/30 to-black",
     url: "https://www.gnosp.tech",
     caseStudy: "/case-studies",
   },
@@ -775,7 +775,7 @@ export const portfolio: PortfolioProject[] = [
     summary:
       "A retrieval-augmented knowledge system that answers from 2M legal documents with citations.",
     technologies: ["RAG", "Next.js", "PostgreSQL"],
-    gradient: "from-slate-500/30 to-blue-600/20",
+    gradient: "from-slate-500/30 to-black",
     url: "https://www.gnosp.tech",
     caseStudy: "/case-studies",
   },

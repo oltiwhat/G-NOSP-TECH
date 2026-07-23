@@ -17,7 +17,7 @@ export function Leadership() {
         {leadership.map((leader) => (
           <RevealItem key={leader.name} className="h-full">
             <article className="group flex h-full flex-col gap-5 rounded-2xl border border-border glass p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:glow">
-              <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-lg font-semibold text-white shadow-lg transition-transform duration-300 group-hover:scale-105">
+              <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-black to-violet-600 text-lg font-semibold text-white shadow-lg transition-transform duration-300 group-hover:scale-105">
                 {leader.initials}
               </span>
               <div className="flex flex-col gap-1">

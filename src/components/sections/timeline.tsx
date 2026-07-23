@@ -17,7 +17,7 @@ export function Timeline() {
         {/* Spine */}
         <div
           aria-hidden
-          className="absolute left-[7px] top-2 bottom-2 w-px bg-gradient-to-b from-blue-600/60 via-violet-600/40 to-transparent sm:left-1/2 sm:-translate-x-1/2"
+          className="absolute left-[7px] top-2 bottom-2 w-px bg-gradient-to-b from-black/60 via-violet-600/40 to-transparent sm:left-1/2 sm:-translate-x-1/2"
         />
 
         <ol className="flex flex-col gap-10">
@@ -32,7 +32,7 @@ export function Timeline() {
               }
             >
               <li className="relative flex items-start gap-5 sm:block">
-                <span className="relative z-10 mt-1 inline-flex h-4 w-4 shrink-0 rounded-full bg-gradient-to-br from-blue-500 to-violet-500 ring-4 ring-background" />
+                <span className="relative z-10 mt-1 inline-flex h-4 w-4 shrink-0 rounded-full bg-gradient-to-br from-black to-violet-500 ring-4 ring-background" />
                 <div className="flex flex-col gap-1.5 rounded-2xl border border-border glass p-5 transition-colors duration-300 hover:border-accent/40">
                   <span className="text-sm font-semibold text-gradient">
                     {item.year}

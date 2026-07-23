@@ -159,7 +159,7 @@ export function Navbar() {
                     )}
                     <span
                       className={cn(
-                        "absolute -bottom-0.5 left-1/2 h-px w-7 -translate-x-1/2 origin-center bg-gradient-to-r from-blue-500 to-violet-500 transition-transform duration-300",
+                        "absolute -bottom-0.5 left-1/2 h-px w-7 -translate-x-1/2 origin-center bg-gradient-to-r from-black to-violet-500 transition-transform duration-300",
                         active
                           ? "scale-x-100"
                           : "scale-x-0 group-hover:scale-x-100",
@@ -234,7 +234,7 @@ export function Navbar() {
                 </div>
                 <Link
                   href={megaMenus[activeMega].featured.href}
-                  className="group/feat relative flex flex-col justify-between gap-4 overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600/20 to-violet-600/20 p-6 ring-1 ring-inset ring-white/10"
+                  className="group/feat relative flex flex-col justify-between gap-4 overflow-hidden rounded-2xl bg-gradient-to-br from-black/20 to-violet-600/20 p-6 ring-1 ring-inset ring-white/10"
                 >
                   <div
                     aria-hidden

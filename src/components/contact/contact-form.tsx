@@ -84,7 +84,7 @@ export function ContactForm() {
               initial={reduce ? {} : { scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 220, damping: 16, delay: 0.1 }}
-              className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-violet-600 text-white shadow-lg shadow-accent/40"
+              className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-black to-violet-600 text-white shadow-lg shadow-accent/40"
             >
               <CircleCheckBig className="h-8 w-8" />
             </motion.span>

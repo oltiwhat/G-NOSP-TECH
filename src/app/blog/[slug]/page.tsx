@@ -104,7 +104,7 @@ export default async function ArticlePage({
 
             <div className="flex flex-wrap items-center gap-x-5 gap-y-3 border-y border-border py-4 text-sm">
               <span className="inline-flex items-center gap-2.5">
-                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-violet-600 text-xs font-semibold text-white">
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-black to-violet-600 text-xs font-semibold text-white">
                   {initials}
                 </span>
                 <span className="flex flex-col">

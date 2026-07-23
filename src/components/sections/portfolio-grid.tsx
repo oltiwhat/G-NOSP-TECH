@@ -38,7 +38,7 @@ export function PortfolioGrid() {
               {isActive && (
                 <motion.span
                   layoutId="portfolio-pill"
-                  className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-blue-600 to-violet-600 shadow-[0_8px_30px_-10px_rgba(124,58,237,0.7)]"
+                   className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-black to-violet-600 shadow-[0_8px_30px_-10px_rgba(124,58,237,0.7)]"
                   transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
@@ -113,7 +113,7 @@ export function PortfolioGrid() {
                     href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-blue-600 to-violet-600 px-4 py-2 text-sm font-medium text-white transition-all hover:brightness-110"
+                     className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-black to-violet-600 px-4 py-2 text-sm font-medium text-white transition-all hover:brightness-110"
                   >
                     Visit Project
                     <ArrowUpRight className="h-4 w-4" />

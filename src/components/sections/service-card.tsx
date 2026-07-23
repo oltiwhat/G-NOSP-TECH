@@ -52,7 +52,7 @@ export function ServiceCard({
       />
 
       <div className="relative flex flex-col gap-5">
-        <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600/20 to-violet-600/20 text-accent ring-1 ring-inset ring-white/10 transition-transform duration-300 group-hover:scale-110">
+        <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-black/20 to-violet-600/20 text-accent ring-1 ring-inset ring-white/10 transition-transform duration-300 group-hover:scale-110">
           {icon}
         </span>
 

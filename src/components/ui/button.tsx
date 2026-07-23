@@ -8,7 +8,7 @@ export const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-gradient-to-r from-blue-600 to-violet-600 text-white shadow-[0_8px_30px_-8px_rgba(59,130,246,0.6)] hover:shadow-[0_12px_40px_-8px_rgba(124,58,237,0.7)] hover:brightness-110",
+          "bg-gradient-to-r from-black to-violet-600 text-white shadow-[0_8px_30px_-8px_rgba(0,0,0,0.6)] hover:shadow-[0_12px_40px_-8px_rgba(124,58,237,0.7)] hover:brightness-110",
         secondary:
           "glass glass-border text-foreground hover:bg-secondary/70",
         outline:

@@ -24,7 +24,7 @@ export const posts: Post[] = [
     category: "Cybersecurity",
     author: { name: "Sofia Reyes", role: "Head of Security" },
     date: "2026-06-18",
-    gradient: "from-rose-500/30 to-blue-600/25",
+    gradient: "from-rose-500/30 to-black",
     featured: true,
     content: `Most breaches don't start with a sophisticated exploit. They start with implicit trust — a flat network, a shared secret, or a service account that was never meant to be reachable.
 
@@ -73,7 +73,7 @@ The result is a system where a compromised node can do far less damage — and w
     category: "AI",
     author: { name: "Marcus Chen", role: "Co-Founder & CTO" },
     date: "2026-06-09",
-    gradient: "from-blue-600/35 to-violet-600/25",
+    gradient: "from-black/35 to-violet-600/25",
     featured: true,
     content: `The gap between an impressive demo and a dependable feature is wider than it looks. Here is the checklist we run before any LLM feature ships.
 
@@ -110,7 +110,7 @@ Track latency, token cost, and harmful-output rate per route. The models improve
     category: "Cloud",
     author: { name: "Sonny Liston", role: "Founder & CEO" },
     date: "2026-05-27",
-    gradient: "from-cyan-500/30 to-blue-600/25",
+    gradient: "from-cyan-500/30 to-black",
     content: `Cloud bills are a mirror of your architecture decisions. Before negotiating rates, fix the shape of your workloads.
 
 ## Right-size before you reserve

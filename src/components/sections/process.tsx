@@ -21,7 +21,7 @@ export function Process() {
         {process.map((step) => (
           <RevealItem key={step.step} className="relative h-full">
             <div className="flex h-full flex-col gap-4 rounded-2xl border border-border glass p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40">
-              <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-600/20 to-violet-600/20 text-lg font-semibold text-accent ring-1 ring-inset ring-white/10">
+              <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-black/20 to-violet-600/20 text-lg font-semibold text-accent ring-1 ring-inset ring-white/10">
                 {step.step}
               </span>
               <h3 className="text-base font-semibold tracking-tight text-foreground">

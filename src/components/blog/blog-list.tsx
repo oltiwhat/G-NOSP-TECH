@@ -78,7 +78,7 @@ export function BlogList({
                   {isActive && (
                     <motion.span
                       layoutId="blog-pill"
-                      className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-blue-600 to-violet-600"
+                      className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-black to-violet-600"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}

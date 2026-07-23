@@ -34,7 +34,7 @@ export function ServicesPreview() {
                 href="/services"
                 className="group relative flex h-full flex-col gap-5 rounded-2xl border border-border glass p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:glow"
               >
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600/20 to-violet-600/20 text-accent ring-1 ring-inset ring-white/10">
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-black/20 to-violet-600/20 text-accent ring-1 ring-inset ring-white/10">
                   <Icon className="h-6 w-6" />
                 </span>
                 <div className="flex flex-col gap-2">

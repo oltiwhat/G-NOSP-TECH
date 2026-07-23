@@ -491,16 +491,16 @@ export type Leader = {
 
 export const leadership: Leader[] = [
   {
-    name: "Sam Veselaj",
+    name: "Sonny Liston",
     role: "Founder & CEO",
     bio: "Former principal engineer who scaled platforms to billions of requests. Obsessed with turning hard problems into calm, reliable systems.",
-    initials: "SV",
+    initials: "SL",
   },
   {
-    name: "Olti Ahmeti",
+    name: "John Jane Rambo",
     role: "Co-Founder & CTO",
     bio: "Distributed systems veteran and AI researcher. Believes the best architecture is the one your team can still reason about at 3am.",
-    initials: "OA",
+    initials: "JR",
   },
 ];
 
